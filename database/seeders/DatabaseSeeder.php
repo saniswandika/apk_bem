@@ -22,11 +22,11 @@ class DatabaseSeeder extends Seeder
             'password'=>bcrypt('password')
         ]);
 
-        \App\Models\User::create([
-            'name'=>'User',
-            'Email' => 'user@user.com',
-            'password'=>bcrypt('password')
-        ]);
+        // \App\Models\User::create([
+        //     'name'=>'User',
+        //     'Email' => 'user@user.com',
+        //     'password'=>bcrypt('password')
+        // ]);
 
 
     }
